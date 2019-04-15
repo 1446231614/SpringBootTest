@@ -21,7 +21,7 @@ public class HelloController {
     }*/
     @RequestMapping(value = "/login")
     public ModelAndView login(Model model, HttpServletRequest request, HttpServletResponse rqsponce) throws IOException {
-        //  rqsponce.sendRedirect("/templates/login");
+        //  responce.sendRedirect("/templates/login");
         return new ModelAndView("login");
     }
 }
